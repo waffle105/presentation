@@ -1,0 +1,17 @@
+# Weather Character Skill Dependencies
+# 天气角色生成技能依赖
+
+# Required / 必需
+requests>=2.28.0
+coze-coding-dev-sdk>=0.5.0
+
+# Optional (for scheduled tasks) / 可选（定时任务）
+schedule>=1.2.0
+
+# Optional (for GUI dialog, usually pre-installed with Python) / 可选（GUI对话框，通常Python自带）
+# tkinter
+
+# Alternative image generation SDKs (choose one) / 备选图片生成SDK（选一个）
+# openai>=1.0.0        # For OpenAI DALL-E
+# stability-sdk       # For Stability AI
+# replicate           # For Replicate
